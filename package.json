@@ -1,0 +1,13 @@
+{
+  "name": "4rautomation",
+  "version": "1.0.0",
+  "description": "Cypress automation tests for 4R project",
+  "scripts": {
+    "cypress:open": "npx cypress open --browser chrome --config baseUrl=https://4r.hashe.com/",
+    "cypress:run": "npx cypress run --browser chrome --config baseUrl=https://4r.hashe.com/"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
